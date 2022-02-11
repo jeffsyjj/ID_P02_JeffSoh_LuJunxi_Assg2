@@ -1,10 +1,19 @@
-const toggle = document.querySelector('#mobile-menu');
+//Targetting toggle menu
+const menu = document.querySelector('#mobile-menu');
+
+//Targetting SneakersOfFame navbar logo
+const navLogo = document.querySelector('#navbar_logo');
+
+//Targetting menu class links
 const menuLinks = document.querySelector('.navbar_menu');
 
-//Display mobile menu
-const mobileMenu = () => {
-    toggle.classList.toggle('is-active');
-    menuLinks.classList.toggle('is-active');
-}
+//Display Mobile Menu
+/* Create an error function */
+const mobileMenu = () => { 
+    menu.classList.toggle('is-active'); /* .toggle think of it as active or not active, true or false */
+    menuLinks.classList.toggle('active');
+};
 
-toggle.addEventListener('click', mobileMenu);
+//To toggle the above.
+menu.addEventListener('click', mobileMenu);
+

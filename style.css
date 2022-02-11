@@ -7,7 +7,7 @@
 }
 
 .navbar {
-    background: lightpink;
+    background: rgb(231, 79, 102);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -29,8 +29,7 @@
 }
 
 #navbar_logo {
-    background-color: white;
-    background-image: linear-gradient(to right, #c800ff, #b900fb, #a900f7, #9a02f3, #8904ef, #624bfd, #3669ff, #007fff, #00a8ff, #00c8ff, #00e4ee, #5ffbd6); /* Change the home text colour gradient */
+    background-color: black;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -40,7 +39,7 @@
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: larger;
+    font-size: 50px;
 }
 
 .navbar_menu {
@@ -52,7 +51,7 @@
 .navbar_item {
     height: 80px;
 }
-
+/*Navigation bar link names*/
 .navbar_links {
     color: white;
     display: flex;
@@ -90,7 +89,7 @@
 }
 
 .navbar_links:hover { /* hover actions need one here and at the navbar_links for cleaner animation effect */
-    color: magenta;
+    color: lightcoral;
     transition: all 0.3s ease;
 }
 
@@ -118,7 +117,7 @@
     }
 
     .navbar_menu.active { /* all navbar menu active, when you click on icon, it showcases it. */
-        background: black;
+        background: pink;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -136,7 +135,7 @@
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        background: red;
+        background: white;
     }
 
     .navbar_item {
@@ -186,3 +185,4 @@
         transform: translateY(-8px) rotate(-45deg); 
     }
 }
+
