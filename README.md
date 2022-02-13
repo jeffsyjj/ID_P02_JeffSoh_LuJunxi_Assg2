@@ -1,7 +1,7 @@
 # NGEE ANN POLYTECHNIC
-# Module: Interactive Development
-# Assignment 2
-# Theme number: 1(E-Commerce)
+Module: Interactive Development
+Assignment 2
+Theme number: 1(E-Commerce)
 
 
 # Student's Information:
