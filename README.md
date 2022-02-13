@@ -11,19 +11,19 @@ Student Name: Soh Yi Jie Jeff
 StudentID: S10222326
 
 # Project Name: Juff
-Hello fellow shoppers! Are you sick of going to multiple shoe stores just to look for your desired shoe
+Hello fellow shoppers! Are you sick of going to multiple shoe stores just to look for the latest hype shoe?
 It's a hassle, isn't it? Fear not! In Juff, we have partnered with multiple famous shoe brands such as
-Adidas, Nike, Puma and many more!  The best part is you're able to shop comfortably anywhere either at
+Adidas, Nike, Puma and many more! The best part is you're able to shop comfortably anywhere either at
 your home or even your workplace(We won't tell your boss, don't worry!) with no additional charge! This
 means that you will be getting the same price in all of the shoe stores in Juff. So what are you
 waiting for? Shop in Juff today!
 
 # Design Process:
-This website is actually for everyone, we have shoes for both genders, male and female.
+This website is actually for everyone, we have shoes for both genders, male and female. Hype shoes only.
 
 As mentioned earlier on, a lot of people love shopping for shoes, they would then have to go to multiple
-shoe brand website or head to the store in person to get their desired shoe, this is a hassle.
-Hence, with our project JUFF, they are able to browse through multiple brands at once when shopping on
+shoe brand website or head to the store in person to find their desired shoe, this is a hassle.
+Hence, with our project JUFF, they are able to browse through hype heated shoes at once when shopping on
 our website, this would greatly save them a lot of time.
 
 As a shopper, due to the current pandemic and high rising number of covid cases, they would prefer to

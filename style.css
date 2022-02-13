@@ -1,198 +1,71 @@
-* {
-    box-sizing: border-box;
+/* Fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+*{
+    font-family: 'light 300', sans-serif;
     margin: 0;
     padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-padding-top: 2rem;
     scroll-behavior: smooth;
-}
-
-.navbar {
-    background: rgb(231, 79, 102);
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    overflow: auto;
-}
-
-.navbar_container {
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    margin: 0 auto; 
-    padding: 0 50px;
-}
-
-#navbar_logo {
-    background-color: black;
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 50px;
-}
-
-.navbar_menu {
-    display: flex;
-    align-items: center;
+    box-sizing: border-box;
     list-style: none;
-}
-
-.navbar_item {
-    height: 80px;
-}
-/*Navigation bar link names*/
-.navbar_links {
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 125px;
     text-decoration: none;
-    height: 100%;
 }
-
-.navbar_button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
+:root {
+    --main-color: orangered; 
+    --text-color: black;
+    --bg-color: lightpink;
+}
+img {
     width: 100%;
 }
 
-.button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    padding: 10px 20px;
-    height: 100%;
+body {
+    color: var(--text-color);
+}
+
+.container{
+    max-width: 1068px;
+    margin: auto;
     width: 100%;
-    border: none;
-    outline: none;
-    border-radius: 4px;
-    background: #FC5C7D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: white;
-    transition: all 0.3s ease;
 }
 
-.navbar_links:hover { /* hover actions need one here and at the navbar_links for cleaner animation effect */
-    color: lightcoral;
-    transition: all 0.3s ease;
+section{
+    padding: 4rem 0 3 rem;
+}
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--bg-color);
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
 }
 
-@media screen and (max-width: 960px) {
-    .navbar_container{
-        display: flex;
-        justify-content: space-between;
-        height: 80px;
-        z-index: 1;
-        width: 100%;
-        max-width: 1300px;
-        padding: 0;
-    }
-
-    .navbar_menu{
-        display: grid;
-        grid-template-columns: auto;
-        margin: 0;
-        width: 100%;
-        position: absolute;
-        top: -1000px; /* dropdown effect at the top */
-        opacity: 1;
-        transition: all 0.5s ease;
-        z-index: -1;
-    }
-
-    .navbar_menu.active { /* all navbar menu active, when you click on icon, it showcases it. */
-        background: pink;
-        top: 100%;
-        opacity: 1;
-        transition: all 0.5s ease;
-        z-index: 99;
-        height: 60vh; /* 60% of the viewport */
-        font-size: 1.6rem;
-    }
-
-    #navbar_logo {
-        padding-left: 25px; /* move it to the right a bit */
-    }
-
-    .navbar_toggle .bar { /*creating the actual handle menu */
-        width: 25px;
-        height: 3px;
-        margin: 5px auto;
-        transition: all 0.3s ease-in-out;
-        background: white;
-    }
-
-    .navbar_item {
-        width: 100%;
-    }
-
-    .navbar_links { /* center the menu links */
-        text-align: center;
-        padding: 2rem;
-        width: 100%;
-        display: table;
-    }
-
-    .navbar_button { /* have little spacing */
-        padding-bottom: 2rem;
-    }
-
-    .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 80%;
-        height: 80%;
-        margin: 0;
-    }
-
-    #mobile-menu {
-        position: absolute;
-        top: 20%;
-        right: 5%;
-        transform: translate(5%, 20%);
-    }
-
-    .navbar_toggle .bar {
-        display: block;
-        cursor: pointer;
-    }
-/* this section creates the rotating toggle button to X effect with the help of javascript */
-    #mobile-menu.is-active .bar:nth-child(2) { /* targetting the second child */
-        opacity: 0;
-    }
-    #mobile-menu.is-active .bar:nth-child(1) { /* targetting the second child */
-        transform: translateY(8px) rotate(45deg); 
-    }
-
-    #mobile-menu.is-active .bar:nth-child(3) { /* targetting the second child */
-        transform: translateY(-8px) rotate(-45deg); 
-    }
+.nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
 }
 
-    #homepagebackground {
-        background-image: url("background.jpg");
-        width: 100vw;
-        height: 100vh; 
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        position: relative;
-    }
-    
+.logo {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+#cart-icon {
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.section-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.shop{
+    margin-top: 2rem;
+}
