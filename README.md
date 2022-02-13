@@ -29,20 +29,18 @@ our website, this would greatly save them a lot of time.
 As a shopper, due to the current pandemic and high rising number of covid cases, they would prefer to
 shop online instead of heading out to get their desired shoe. Our project JUFF will be able to help them get their shoe delivered to their house conveniently. This allows them to lessen the number of times they step out of their house which lowers the risk of them getting infected.
 
-## Features:
-
-### Navigation bar - This allows users to quickly go to different sections of our website such as the "Men" shopping area or "Woman" shopping area.
-
-### Login button - This allows users to log in if they have an account already on our website so that they will be able to access more features of our website such as rewards.
-
-### Mobile responsiveness - This allows users to browse the website on mobile. 
-# Features Left to Implement:
-
-## Sign up button - This allows users to create a new account on our e-commerce website.
-
-## Add to cart - This allows users to add shoes that they would like to purchase to the cart for checkout
-
-## Wheel of coins - This is a reward system where users can get up to 10 coins every day from a roulette wheel and every coin is equal to $0.10 which can be used for their purchases lowering the price
-
+## Features
+Featuring my website features.
+### Existing Features
+- Mobile responsiveness - This allows users to browse the website on mobile. 
+- Navigation bar - Multiple navigation buttons to allow users to navigate within the website itself as well as one login button which navigates to another website. It stays at the top of the website when the user scrolls to ensure that users can navigate to different sections of the website instead of having to scroll all the way back up. For mobile, the navigation bar is a slider navigation bar. The animation effect is created using CSS.
+- Buttons - Most buttons have cool gradient designs and links user to other websites. 
+- Footer - Located at the very bottom of the page, footer contains my website rights as well as social media links where users can contact me. The 'JUFF' logo allows users to head back to the main page.
+- Highlights - Using CSS, when a user hover their cursor over certain items, it changes the colour of the pointed items. For example, when hovering cursor over the navigation buttons, the button highlights into purple.
+- JavaScript - Javascript is used to make the mobile navigation slider effect. It is used to open and close the navigation mobile bar. Also, for mobile view, Javascript is used to open the navigation bar menu and close the menu once the user clicks the navigation button and is lead to that particular section of the website.
+### Future features
+- Login page - Created another html webpage for users to login or sign up to become a member.
+- Add to cart - This allows users to add shoes that they would like to purchase to the cart for checkout
+- Wheel of coins - This is a reward system where users can get up to 10 coins every day from a roulette wheel and every coin is equal to $0.10 which can be used for their purchases lowering the price
 # Technologies Used:
 This project uses stripe as a payment API
