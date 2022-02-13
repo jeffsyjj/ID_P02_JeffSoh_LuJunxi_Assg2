@@ -19,7 +19,7 @@ means that you will be getting the same price in all of the shoe stores in Juff.
 waiting for? Shop in Juff today!
 
 # Design Process:
-This website is actually for everyone, we have shoes for both genders, there is also a kids section.
+This website is actually for everyone, we have shoes for both genders, male and female.
 
 As mentioned earlier on, a lot of people love shopping for shoes, they would then have to go to multiple
 shoe brand website or head to the store in person to get their desired shoe, this is a hassle.
@@ -29,19 +29,20 @@ our website, this would greatly save them a lot of time.
 As a shopper, due to the current pandemic and high rising number of covid cases, they would prefer to
 shop online instead of heading out to get their desired shoe. Our project JUFF will be able to help them get their shoe delivered to their house conveniently. This allows them to lessen the number of times they step out of their house which lowers the risk of them getting infected.
 
-#Features:
+## Features:
 
-Navigation bar - This allows users to quickly go to different sections of our website such as the "Men" shopping area or "Woman" shopping area.
+### Navigation bar - This allows users to quickly go to different sections of our website such as the "Men" shopping area or "Woman" shopping area.
 
-Login button - This allows users to log in if they have an account already on our website so that they will be able to access more features of our website such as rewards.
+### Login button - This allows users to log in if they have an account already on our website so that they will be able to access more features of our website such as rewards.
 
+### Mobile responsiveness - This allows users to browse the website on mobile. 
 # Features Left to Implement:
 
-Sign up button - This allows users to create a new account on our e-commerce website.
+## Sign up button - This allows users to create a new account on our e-commerce website.
 
-Add to cart - This allows users to add shoes that they would like to purchase to the cart for checkout
+## Add to cart - This allows users to add shoes that they would like to purchase to the cart for checkout
 
-Wheel of coins - This is a reward system where users can get up to 10 coins every day from a roulette wheel and every coin is equal to $0.10 which can be used for their purchases lowering the price
+## Wheel of coins - This is a reward system where users can get up to 10 coins every day from a roulette wheel and every coin is equal to $0.10 which can be used for their purchases lowering the price
 
 # Technologies Used:
 This project uses stripe as a payment API
