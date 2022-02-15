@@ -30,7 +30,7 @@ body {
 }
 
 section{
-    padding: 4rem 0 3 rem;
+    padding: 4rem 0 3rem;
 }
 /* Header */
 header {
@@ -48,10 +48,10 @@ header {
     justify-content: space-between;
     padding: 20px 0;
 }
-
+/* Logo name*/
 .logo {
-    font-size: 1.1rem;
-    color: var(--text-color);
+    font-size: 2rem;
+    color: red;
     font-weight: 400;
 }
 
@@ -64,8 +64,57 @@ header {
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 .shop{
     margin-top: 2rem;
+}
+
+/* Shop items */
+.shop-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 1.5rem; 
+}
+
+.product-box{
+    position: relative;
+}
+
+.product-box:hover{
+    padding: 10px;
+    border: 1px solid darksalmon;
+    transition: 0.4s;
+}
+
+.product-image{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.product-title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.price{
+    font-weight: 500;
+}
+
+.add-cart{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background:rgb(236, 119, 158);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.add-cart:hover{
+    background: lightsalmon;
 }
