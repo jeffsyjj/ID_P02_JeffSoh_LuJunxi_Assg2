@@ -40,6 +40,7 @@ function ready(){
         button.addEventListener("click", addCartClicked);
     }
     //Buy Button
+    function buyButtonClicked()
 }
 // Remove items from cart
 function removeCartItem(event){
