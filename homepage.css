@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.front-page {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(frontpage/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #08193d;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.front-title{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:#fff;
+}
+
+.front-title h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.front-title p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.front-title lottie-player {
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+
+section{
+    padding: 4rem 0 3rem;
+}
+
+.section-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.aboutrow {
+    display: flex;
+}
+
+.column {
+    flex: 45%
+}
+
+.junxi{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    bottom: 400px;
+    left: 250px;
+}
+
+.junxi img {
+    border-radius: 50%;
+}
+
+.jeff{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    bottom: 650px;
+    left: 800px;
+}
+
+.jeff img {
+    border-radius: 50%;
+}

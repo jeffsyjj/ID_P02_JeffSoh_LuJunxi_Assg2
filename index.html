@@ -1,98 +1,28 @@
-<!DOCTYPE html>
+<!--Home page-->
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>JUFF</title>
-  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="homepage.css">
 </head>
-
 <body>
-  <!--Header-->
-  <header>
-    <!--Navigation Bar-->
-      <div class="nav container">
-        <a href="#" class="logo">JUFF</a>
-        <!--Cart Icon-->
-        <i class='bx bx-shopping-bag' id="cart-icon"></i>
-        <!--Cart-->
-        <div class="cart">
-          <h2 class="cart-title">Your Cart</h2>
-          <!--Items-->
-          <div class="cart-items">
-          </div>
-          <!--Total-->
-          <div class="total">
-            <div class="total-title">Total</div>
-            <div class="total-price">$0</div>
-          </div>
-          <!--Buy Button-->
-          <button type="button" class="btn-buy">Buy Now</button>
-          <!--Cart Close-->
-          <i class='bx bx-x' id="close-cart"></i>
+    <div class="front-page">
+        <div class="navbar">
+            <img src="frontpage/logo.png" class="logo">
+            <ul> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+            </ul>
         </div>
-      </div>
-  </header>
-    
 
-    <!--Home shop page-->
-    <section class="shop container">
-      <h2 class="section-title">Hot Kicks</h2>
-      <!--Shop Items-->
-      <div class="shop-items">
-        <div class="product-box">
-          <img src="img/jordan1.png" alt="" class="product-img">
-          <h2 class="product-title">Jordan 1 Retro High OG - Grade School Shoes</h2>
-          <span class="price">$169</span>
-          <i class='bx bx-shopping-bag add-cart'></i>
+        <div class="front-title">
+            <h1>FIND YOUR KICKS</h1>
+            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_rz9otz4d.json"  background="transparent"  speed="1"  style="width: 250px; height: 250px;"  loop  autoplay></lottie-player>
+            <p>Look for your desired kicks here!</p>
         </div>
-        <div class="product-box">
-          <img src="img/jordan2.png" alt="" class="product-img">
-          <h2 class="product-title">Jordan 1 Mid - Grade School Shoes</h2>
-          <span class="price">$169</span>
-          <i class='bx bx-shopping-bag add-cart'></i>
-        </div>
-        <div class="product-box">
-          <img src="img/jordan3.png" alt="" class="product-img">
-          <h2 class="product-title">Jordan 5 Retro Se - Men Shoes</h2>
-          <span class="price">$279</span>
-          <i class='bx bx-shopping-bag add-cart'></i>
-        </div>
-        <div class="product-box">
-          <img src="img/jordan4.png" alt="" class="product-img">
-          <h2 class="product-title">Nike Waffle One - Women's Shoe</h2>
-          <span class="price">$149</span>
-          <i class='bx bx-shopping-bag add-cart'></i>
-        </div>
-        <div class="product-box">
-          <img src="img/jordan5.png" alt="" class="product-img">
-          <h2 class="product-title">Jordan 1 Mid - Women's Shoe</h2>
-          <span class="price">$169</span>
-          <i class='bx bx-shopping-bag add-cart'></i>
-        </div>
-        <div class="product-box">
-          <img src="img/jordan6.png" alt="" class="product-img">
-          <h2 class="product-title">Jordan 1 Mid - Women's Shoe</h2>
-          <span class="price">$169</span>
-          <i class='bx bx-shopping-bag add-cart'></i>
-        </div>
-        <div class="product-box">
-          <img src="img/jordan7.png" alt="" class="product-img">
-          <h2 class="product-title">Jordan 3 Retro - Men's Shoe</h2>
-          <span class="price">$269</span>
-          <i class='bx bx-shopping-bag add-cart'></i>
-        </div>
-        <div class="product-box">
-          <img src="img/jordan8.png" alt="" class="product-img">
-          <h2 class="product-title">Jordan 11 Retro - Men Shoes</h2>
-          <span class="price">$249</span>
-          <i class='bx bx-shopping-bag add-cart'></i>
-        </div>
-        
-      </div>
-    </section>
-  <!--JAVASCRIPT-->
-  <script src="website.js"></script>
+
+    </div>
 </body>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </html>
