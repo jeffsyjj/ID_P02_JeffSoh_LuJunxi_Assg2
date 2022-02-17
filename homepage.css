@@ -111,26 +111,3 @@ section{
     flex: 45%
 }
 
-.junxi{
-    width: 250px;
-    height: 250px;
-    position: relative;
-    bottom: 400px;
-    left: 250px;
-}
-
-.junxi img {
-    border-radius: 50%;
-}
-
-.jeff{
-    width: 250px;
-    height: 250px;
-    position: relative;
-    bottom: 650px;
-    left: 800px;
-}
-
-.jeff img {
-    border-radius: 50%;
-}
