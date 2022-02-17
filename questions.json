@@ -1,0 +1,26 @@
+[
+    {
+      "question": "Who are the creators of JUFF?",
+      "choice1": "Jaff and Junxi",
+      "choice2": "Jeff and Junxi",
+      "choice3": "Elon Musk",
+      "choice4": "Ngee Ann Polytechnic",
+      "answer": 2
+    },
+    {
+      "question": "When was shoes invented?",
+      "choice1": "8000 BCE",
+      "choice2": "4000 BCE",
+      "choice3": "2022",
+      "choice4": "Shoes are not invented yet!",
+      "answer": 1
+    },
+    {
+      "question": "What shoe brands do we sell in JUFF?",
+      "choice1": "Only popular ones like Adidas, Nike",
+      "choice2": "We sell only shoes made by JUFF",
+      "choice3": "We only sell brands that no one has heard of much",
+      "choice4": "Everything!",
+      "answer": 4
+    }
+  ]
