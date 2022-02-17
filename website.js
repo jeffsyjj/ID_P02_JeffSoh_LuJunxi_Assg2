@@ -40,7 +40,15 @@ function ready(){
         button.addEventListener("click", addCartClicked);
     }
     //Buy Button
-    function buyButtonClicked()
+    document.getElementsByClassName("btn-buy")[0].addEventListener("click", buyButtonClicked);
+}
+function buyButtonClicked() {
+    alert("Your order is placed");
+    var cartItems = document.getElementsByClassName("cart-items")[0];
+    while (cartItems.hasChildNodes()) {
+        cartItems.removeChild(cartItems.firstChild);
+    }
+    updateTotal();
 }
 // Remove items from cart
 function removeCartItem(event){
@@ -107,9 +115,9 @@ function updateTotal(){
         var price = parseFloat(priceElement.innerText.replace("$", ""));
         var quantity = quantityElement.value;
         total = total + (price * quantity);
+    }
         // If price is not a whole number
         total = Math.round( total * 100) / 100;
 
         document.getElementsByClassName('total-price')[0].innerText = "$" + total;
-    }
 }
