@@ -12,7 +12,9 @@ img {
     width: 100%;
 }
 body{
-    background-color: rgb(78, 139, 219);
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(frontpage/background.jpg);
+    background-position: center;
 }
 
 .container{
