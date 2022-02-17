@@ -48,10 +48,12 @@ header {
     justify-content: space-between;
     padding: 20px 0;
 }
+
 .nav .container {
     position: relative;
     z-index: -1;
 }
+
 /* Logo name*/
 .logo {
     font-size: 2rem;
@@ -169,8 +171,7 @@ header {
 .shop{
     margin-top: 2rem;
     position: relative;
-    z-index: -1;
-    }
+}
 
 /* Shop items */
 .shop-items{
@@ -207,7 +208,7 @@ header {
 }
 
 .add-cart{
-    position: absolute;
+    position: relative;
     bottom: 0;
     right: 0;
     background:rgb(236, 119, 158);
