@@ -48,6 +48,10 @@ header {
     justify-content: space-between;
     padding: 20px 0;
 }
+.nav .container {
+    position: relative;
+    z-index: -1;
+}
 /* Logo name*/
 .logo {
     font-size: 2rem;
@@ -73,6 +77,7 @@ header {
 }
 .cart.active{
     right: 0;
+    z-index: 9999;
 }
 .cart-title{
     text-align: center;
@@ -163,7 +168,9 @@ header {
 
 .shop{
     margin-top: 2rem;
-}
+    position: relative;
+    z-index: -1;
+    }
 
 /* Shop items */
 .shop-items{
