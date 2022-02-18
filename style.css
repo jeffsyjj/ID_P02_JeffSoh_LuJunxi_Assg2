@@ -76,6 +76,10 @@ header {
     background: burlywood;
     box-shadow: -2px 0 4px grey;
     transition: 0.3s;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    max-height: 500px;
+    max-height: 50vh;
 }
 .cart.active{
     right: 0;
