@@ -11,9 +11,9 @@
     text-decoration: none;
 }
 :root {
-    --main-color: orangered; 
+    --main-color: rgb(0, 0, 0); 
     --text-color: black;
-    --bg-color: lightpink;
+    --bg-color: rgb(25, 45, 61);
 }
 img {
     width: 100%;
@@ -57,7 +57,7 @@ header {
 /* Logo name*/
 .logo {
     font-size: 2rem;
-    color: red;
+    color: rgb(0, 0, 0);
     font-weight: 400;
 }
 
@@ -141,7 +141,7 @@ header {
     margin: 1.5rem auto 0 auto;
     padding: 12px 20px;
     border: none;
-    background: palevioletred;
+    background: rgb(124, 75, 146);
     color: white;
     font-size: 1rem;
     font-weight: 500;
@@ -211,7 +211,7 @@ header {
     position: relative;
     bottom: 0;
     right: 0;
-    background:rgb(236, 119, 158);
+    background:rgb(25, 45, 61);
     color: white;
     padding: 10px;
     cursor: pointer;
