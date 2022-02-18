@@ -35,13 +35,65 @@ Featuring my website features.
 - Mobile responsiveness - This allows users to browse the website on mobile.
 - Logo - Designed a simple and nice logo instead of a plain text.
 - Navigation bar - Multiple navigation buttons to allow users to navigate within the website itself as well as one login button which navigates to another website. It stays at the top of the website when the user scrolls to ensure that users can navigate to different sections of the website instead of having to scroll all the way back up. For mobile, the navigation bar is a slider navigation bar. The animation effect is created using CSS.
-- Buttons - Most buttons have cool gradient designs and links user to other websites. 
-- Footer - Located at the very bottom of the page, footer contains my website rights as well as social media links where users can contact me. The 'JUFF' logo allows users to head back to the main page.
+- Buttons - Most buttons have cool gradient designs and links user to other websites. The animation effect is also created using CSS
 - Highlights - Using CSS, when a user hover their cursor over certain items, it changes the colour of the pointed items. For example, when hovering cursor over the navigation buttons, the button highlights into purple.
-- JavaScript - Javascript is used to make the mobile navigation slider effect. It is used to open and close the navigation mobile bar. Also, for mobile view, Javascript is used to open the navigation bar menu and close the menu once the user clicks the navigation button and is lead to that particular section of the website.
+- JavaScript - Javascript is used to make the mobile navigation slider effect. It is used to open and close the navigation mobile bar. Also, for mobile view, Javascript is used to open the navigation bar menu and close the menu once the user clicks the navigation button and is lead to that particular section of the website. Javascript is also used a lot for our quiz game.
+- Add to cart - Users are able to add their desired shoes to the cart and check out to payment
+- Checkout - This allows users to checkout and buy stuffs
+- Collection - This shows users what shoes will we be adding soon to the website
 ### Future features
-- Login page - Created another html webpage for users to login or sign up to become a member.
-- Add to cart - This allows users to add shoes that they would like to purchase to the cart for checkout
-- Wheel of coins - This is a reward system where users can get up to 10 coins every day from a roulette wheel and every coin is equal to $0.10 which can be used for their purchases lowering the price
+- We can change the theme of the page for future events like Christmas and National Day
 # Technologies Used:
-This project uses stripe as a payment API
+This project uses Open Trivia Database as a Quiz Question API: https://opentdb.com/
+I decided to use this Database as not only is it free to use, there is also a lot of users provided and verified questions.
+
+This project uses Html, Css and Javascript. We used these programming languages and Markup Language to design our website as they are languages commonly used to design websites.
+
+We have used w3schools: https://www.w3schools.com/
+This has many lessons to help us figure out errors on our code and how to create certain stuffs for example the class loadgame for game.html which is basically a loader to give the website some time to fetch the questions from the API.
+
+We have also used LottieFiles: https://lottiefiles.com/
+We used quite a few animation from this website such as the front page shoe animation and the quiz page shoe animation
+
+# Testing:
+
+1. Navigation bar buttons:
+    Navigation Bar items for every page except shop should be able to bring you to different pages of the website.
+    i. Home brings you to the front page.
+    ii. About brings you to the about us page.
+    iii. Shop brings you to the shop page where it displays all the shoes for sale
+    iv. Collections brings you to the collection page where it displays upcoming shoes for sale.
+    v. Quiz brings you to the quiz game.
+
+2. Front page buttons
+    There is two buttons "Shop Now" and "Collections".
+    i. Shop Now will bring you to shop page.
+    ii. Collections will bring you to the collection page.
+
+3. Quiz
+    i. When you answer a question wrongly, no points will be given and it will display red for the option you have chosen.
+    ii. When you answer a question correctly, 10 points will be given and it will display green for the option you have chosen
+
+4. This project is mobile-reponsive and works on different browsers
+    i. Google chrome works and you can navigate around the website perfectly fine
+    ii. Firefox works and you can navigate around the website perfectly fine
+    iii. Mobile view works, you can navigate around the website perfectly fine
+    iv. Ipad view works, you can navigate around the website perfectly fine
+
+# Credits
+Media:
+    Photos used in this site were obtained from:
+    Nike
+    Adidas
+    Puma
+    Converse
+    New Balance
+    UGG
+    Vans
+    https://unsplash.com/s/photos/shoe-collection
+    https://fashionisers.com/2021/07/23/shoes-type-man-must-own/
+
+
+
+
+
