@@ -26,11 +26,11 @@
   }
   
   .correct {
-    background-color: #28a745;
+    background-color: #25863b;
   }
   
   .incorrect {
-    background-color: #dc3545;
+    background-color: #b92f3d;
   }
   
   /* HUD */
@@ -51,13 +51,13 @@
   
   #progressBar {
     width: 20rem;
-    height: 4rem;
-    border: 0.3rem solid #56a5eb;
+    height: 3.9rem;
+    border: 0.28rem solid #6480ce;
     margin-top: 1.5rem;
   }
   
   #progressBarFull {
     height: 3.4rem;
-    background-color: #56a5eb;
+    background-color: #6480ce;
     width: 0%;
   }
