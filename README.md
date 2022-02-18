@@ -2,6 +2,7 @@ NGEE ANN POLYTECHNIC
 Module: Interactive Development
 Assignment 2
 Theme number: 1(E-Commerce)
+GITHUB Link: https://github.com/jeffsyjj/ID_P02_JeffSoh_LuJunxi_Assg2
 
 
 # Student's Information:
